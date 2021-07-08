@@ -95,7 +95,8 @@ let validateForms = function(selector, rules) {
             form.reset();
 		},
 	});
-}
+};
+
 
 // validateForms('.mailing__form', { email: { required: true, email: true } }, 'mailing-window', 'materialy s proshloj konferencii');
 validateForms('.newsletter__form', { email: { required: true, email: true }, tel: { required: true } });
